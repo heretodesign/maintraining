@@ -1,0 +1,155 @@
+/**
+ * This injects Tailwind's base styles, which is a combination of
+ * Normalize.css and some additional base styles.
+ *
+ * You can see the styles here:
+ * https://github.com/tailwindcss/tailwindcss/blob/master/css/preflight.css
+ *
+ * If using `postcss-import`, use this import instead:
+ *
+ * @import "tailwindcss/preflight";
+ */
+@tailwind preflight;
+
+/**
+ *  CSS Classes for the cadstraining
+ */
+
+ a {
+     text-decoration: none;
+     @apply text-teal;
+ }
+
+ .top-nav-item {
+     @apply .text-grey-darker .text-sm .mr-4 .font-semibold .pb-6  .border-b-2 .border-solid .border-transparent;
+ }
+ .top-nav-item:hover {
+     @apply .text-teal .border-teal;
+ }
+ .cardopt {
+ 	@apply .ml-24;
+ }
+ .excell-cover {
+ 	background-image: url('/img/excel101.png');
+ 	@apply .bg-cover;
+ }
+ .story-cover {
+ 	background-image: url('/img/visual101.png');
+ 	@apply .bg-cover;
+ }
+
+ .pp-cover {
+ 	background-image: url('/img/powerpoint101.png');
+ 	@apply .bg-cover;
+ }
+
+  .training {
+ 	background-image: linear-gradient(
+      rgba(255, 0, 0, 0.45), 
+      rgba(255, 0, 0, 0.45)
+    ), url('/img/training.png');
+ 	@apply .bg-cover;
+ }
+  .about {
+ 	background-image: linear-gradient(
+      rgba(255, 0, 0, 0.45), 
+      rgba(255, 0, 0, 0.45)
+    ), url('/img/about-us.png');
+ 	@apply .bg-cover;
+ }
+
+  .contact {
+ 	background-image: linear-gradient(
+      rgba(255, 0, 0, 0.45), 
+      rgba(255, 0, 0, 0.45)
+    ), url('/img/contact-us.png');
+ 	@apply .bg-cover;
+ }
+ 
+ .introduction {
+	background-image: url('/img/talentass.png');
+ 	@apply .bg-cover;
+ }
+ .ibd {
+	background-image: url('/img/bigdata101.png');
+ 	@apply .bg-cover;
+ }
+
+
+ .colar {
+ 	color: #3490DC;
+ }
+.colar1 {
+ 	color: #eb4495;
+ }
+ .colar2 {
+ 	color: #f7a531;
+ }
+ .colar3 {
+ 	color: #51c58b;
+ }
+ .colar4 {
+ 	color: #8e2f8a;
+ }
+ /*.shell {
+ 	background-image: url('/img/wpp.png');
+ 	@apply .bg-cover;
+ }*/
+ /*.full-height {
+ 	@apply .max-height: 100vh .w-screen;
+ }*/
+/*.hero {
+	background: url('/img/shela.png');
+	background-image: url('/img/shela.png');
+}*/
+
+
+/**
+ * This injects any component classes registered by plugins.
+ *
+ * If using `postcss-import`, use this import instead:
+ *
+ * @import "tailwindcss/components";
+ */
+@tailwind components;
+
+/**
+ * Here you would add any of your custom component classes; stuff that you'd
+ * want loaded *before* the utilities so that the utilities could still
+ * override them.
+ *
+ * Example:
+ *
+ * .btn { ... }
+ * .form-input { ... }
+ *
+ * Or if using a preprocessor or `postcss-import`:
+ *
+ * @import "components/buttons";
+ * @import "components/forms";
+ */
+
+/**
+ * This injects all of Tailwind's utility classes, generated based on your
+ * config file.
+ *
+ * If using `postcss-import`, use this import instead:
+ *
+ * @import "tailwindcss/utilities";
+ */
+@tailwind utilities;
+
+/**
+ * Here you would add any custom utilities you need that don't come out of the
+ * box with Tailwind.
+ *
+ * Example :
+ *
+ * .bg-pattern-graph-paper { ... }
+ * .skew-45 { ... }
+ *
+ * Or if using a preprocessor or `postcss-import`:
+ *
+ * @import "utilities/background-patterns";
+ * @import "utilities/skew-transforms";
+ */

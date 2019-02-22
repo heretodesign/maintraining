@@ -1,0 +1,186 @@
+Bong - shell guru guy for Data Science.
+
+Updates
+Everything Done by End of Next week: Needs to roll out by 27. 31 is show date
+
+1. Name: Big data for line-managers, Big data for Senior Leaders
+	#this is all in the landing page
+
+2. Title it: Shell Big Data Analytics
+	#this is the title headers for the email so that it doesnt get spoofed into junk emails
+
+3. Training Page
+	# Put training class info
+	* What to bring: Laptops, no per class, Name of the classroom
+
+4. Enrollment
+	#build a function to check if the the number of enrollment in the database is 30-35
+	* allow for enrollment if the class is not filled
+	* if the class is filled, suggest training dates
+
+5. Show the cost of the course / Module in the frontpage
+
+6. Website: we pack it under our own serve: digital oceans
+
+7. Payment form: Customize the fields:
+	#Shell Address for payment Address
+
+8. 
+
+#11AB31dev11#
+
+
+ABMarketing
+
+In order to complete these programme, participants would need to go through a capstone at the end of each module.
+
+ibd
+http://bit.ly/shell00007
+
+talent
+http://bit.ly/shell00006
+
+
+Feedback
+
+1. Colors and graphic content ---> check with Denzel
+2. 
+3. 
+4. 
+5. 
+6. 
+
+DDO
+1. Form: remove --> job title, address, postcode,
+ Whats Needed: fullname*, mobile number, email address*, department*, role in department*, company name*
+
+ 2 sets of Forms
+ 1st before the survey [fullname*, mobile number, email address*, department*, role in department*, company name*]
+ 2nd after the survey [industry sector, company size,]
+
+
+
+Talent Spy
+1. put a button to click to go to the relevant page.
+2. Do not reroute straightaway
+
+
+Shell:
+
+Login page: become the landing page, use middleware to reroute the welcome page.
+
+
+
+
+
+Digital Oceans Droplets 
+ssh root@206.189.91.24
+ilovegilbert
+
+
+mysql
+root
+ilovegilbert
+
+
+
+sudo apt-get install php7.3 php7.3-mbstring php7.3-mysql php7.3-zip php7.3-fpm
+
+
+sudo apt-get install php7.3-mbstring php7.3-zip php7.3-mysql php7.3-fpm
+
+php7.2-fpm
+
+sudo apt-get install php7.2-fpm php7.2-mysql php7.2-mbstring php7.2-fpm
+
+
+
+
+<?php
+
+use Illuminate\Support\Facades\Schema;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Database\Migrations\Migration;
+
+class AddJobtitleToUsersTable extends Migration
+{
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up()
+    {
+        Schema::table('users', function (Blueprint $table) {
+            $table->string('jobtitle');
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
+    public function down()
+    {
+        Schema::table('users', function (Blueprint $table) {
+            $table->string('jobtitle');
+        });
+    }
+}
+
+
+<?php
+
+use Illuminate\Support\Facades\Schema;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Database\Migrations\Migration;
+
+class AddDepartmentToUsersTable extends Migration
+{
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up()
+    {
+        Schema::table('users', function (Blueprint $table) {
+           $table->string('department');
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
+    public function down()
+    {
+        Schema::table('users', function (Blueprint $table) {
+            $table->string('department');
+        });
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
