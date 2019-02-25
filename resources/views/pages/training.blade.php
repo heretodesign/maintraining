@@ -183,6 +183,86 @@
     </div>
 </div>
 <div class="trainer bg-grey-light -mb-4">
+    <div class="container mx-auto">
+        <div class="container mx-auto flex items-center -mt-16 h-112">
+            <div class="w-1/4">
+                <div>
+                    <img src="/img/DSC_6099_edit.jpg" alt="profile-pictuer" class="rounded-full h-48 w-48 border-b-2 border-solid border-black">
+                </div>
+                <div>
+                    <h2 class="mt-5 ml-5">Jan Sauer</h2>
+                </div>
+            </div>
+            <div class="w-1/2">
+                <div>
+                    <p class="pr-8 mr-5">
+                        A Data Scientist at The Center of Applied Data Science (CADS), Jan Sauer was a biostatistician in the field of deep learning and image/pattern recognition. He has a master's degree in physics and have extensive experience as a software developer. <br> <br>Throughout his career, he has been involved in different areas of data science, ranging from automated data collection and data analysis, data pipeline and database design, and advanced machine learning where he uses Tensorflow extensively in image processing.
+                    </p>
+                </div>
+            </div>
+            <div class="w-1/4 flex justify-end items-center h-48">       
+                <div>
+                    <h2>Connect with Jan</h2>
+                    <ul class="list-reset flex px-4">
+                        <li class="text-center py-3">
+                            <a href="https://www.facebook.com/thecads.org/" class="mr-5 ml-5"><i class="fab fa-facebook fa-3x text-cads-cop1"></i></a>
+                        </li>
+                        <li class="text-center py-3">
+                            <a href="https://www.linkedin.com/in/rvinod85/" class="mr-5 ml-5"><i class="fab fa-linkedin fa-3x text-cads-cop1"></i></a>
+                        </li>
+                        <li class="text-center py-3 px-4">
+                            <a href="info@thecads.org" class="mr-5 ml-5"><i class="fas fa-envelope-square  fa-3x text-cads-cop1"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="trainer bg-grey-light -mb-4">
+    <div class="container mx-auto ">
+        <!-- <div class="flex-1 bg-grey px-6 h-16 w-1/2">
+            <h2 class="uppercase items-center">Thecads: Lead Instructor</h2>
+        </div> -->
+        <div class="container mx-auto flex items-center -mt-16 h-112">
+            <div class="w-1/4">
+                <div>
+                    <img src="/img/Mazlita-Photo.jpg" alt="profile-pictuer" class="rounded-full h-48 w-48 border-b-2 border-solid border-black">
+                </div>
+                <div>
+                    <h2 class="mt-5 ml-5">Laleh Asadzadeh Esafahani</h2>
+                </div>
+            </div>
+            <div class="w-1/2">
+                <div>
+                    <p class="pr-8 mr-5">
+                        Laleh received her MSc. in Computer Science in 2016 from Southern Illinois University. Her research focused on the modelling and analysis of social network users’ activities. Laleh then was a data scientist at Potentia Analytics Inc. and was in charge of developing and implementing several research projects that enhance the quality of service in hospitals. <br> <br>
+                        Before that, she received her MSc. In Mathematics in 2001 from
+                        Sharif University of Technology. Her Masters thesis was on defining sets in combinatorial structures and their applications in cryptography. After graduation, Laleh was a Mathematics instructor, researcher, and research mentor at Isfahan Mathematics House.
+                        She specializes in Mathematical Modelling, Statistical Analysis, Machine Learning, and programming languages, such as Python and R.
+                    </p>
+                </div>
+            </div>
+            <div class="w-1/4 flex justify-end items-center h-48">       
+                <div>
+                    <h2>Connect with Laleh</h2>
+                    <ul class="list-reset flex px-4">
+                        <li class="text-center py-3">
+                            <a href="https://www.facebook.com/thecads.org/" class="mr-5 ml-5"><i class="fab fa-facebook fa-3x text-cads-cop1"></i></a>
+                        </li>
+                        <li class="text-center py-3">
+                            <a href="https://www.linkedin.com/in/rvinod85/" class="mr-5 ml-5"><i class="fab fa-linkedin fa-3x text-cads-cop1"></i></a>
+                        </li>
+                        <li class="text-center py-3 px-4">
+                            <a href="info@thecads.org" class="mr-5 ml-5"><i class="fas fa-envelope-square  fa-3x text-cads-cop1"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="trainer bg-grey-light -mb-4">
     <div class="container mx-auto ">
         <!-- <div class="flex-1 bg-grey px-6 h-16 w-1/2">
             <h2 class="uppercase items-center">Thecads: Lead Instructor</h2>
@@ -200,7 +280,7 @@
                 <div>
                     <p class="pr-8 mr-5">Mazlita is a BSc and MPhil. Computer Science graduate from University College London and Birkbeck College of the University of London respectively, specialising in Web Data Mining. Her prior experience includes providing consultancy work in IT and Web Data Mining as well as previously co-founding a mobile app development start-up. 
                     <br> <br>
-                    A corporate trainer since 2011, Mazlita has a vast experience in teaching various Computer Applications software such as Microsoft Office and Google Apps. She uses her experience as a mentor to various start-ups and her experience as the President of a business networking group to connect and engage with participants in her class..
+                    A corporate trainer since 2011, Mazlita has a vast experience in teaching various Computer Applications software such as Microsoft Office and Google Apps. She uses her experience as a mentor to various start-ups and her experience as the President of a business networking group to connect and engage with participants in her class.
                     </p>
                 </div>
             </div>
@@ -223,6 +303,5 @@
         </div>
     </div>
 </div>
-
 
 @endsection

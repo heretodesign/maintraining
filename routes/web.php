@@ -15,14 +15,6 @@ Route::get('/welcome', function () {
     return view('welcome');
 });
 
-//----------- ENROLL  --------------------//
-// Route::get('/', 'EnrollController@create');
-// Route::get('enroll.show', 'EnrollController@show');
-// Route::post('enrolls', 'EnrollController@store');
-// Route::get('enroll/{enroll}', 'EnrollController@show');
-Route::resource('enrolls','EnrollController');
-
-
 //----------- PagesController --------------------//
 Route::get('/ibd', 'PagesController@getIbd');
 Route::get('/talent', 'PagesController@getTalent');
@@ -36,6 +28,8 @@ Route::get('/powerpoint-content', 'PagesController@getPowerpointContent');
 Route::get('/storytelling', 'PagesController@getStorytelling');
 Route::get('/storytelling-content', 'PagesController@getStorytellingContent');
 
+Route::get('/datanalysis', 'PagesController@getDatanalysis');
+
 Route::get('/payment', 'PagesController@getPayment');
 
 Route::get('/about', 'PagesController@getAbout')->middleware('auth');
@@ -46,8 +40,11 @@ Route::get('/trainers', 'PagesController@getTrainers')->middleware('auth');
 
 //============ FORMS ============================//
 
+//----------- ENROLL  --------------------//
+Route::resource('enrolls','EnrollController');
+
 //----------- Contact Us  --------------------//
- Route::resource('contacts', 'ContactController');
+Route::resource('contacts', 'ContactController');
 
 //----------- Excel  --------------------//
 Route::resource('excels','ExcelController');
@@ -56,12 +53,12 @@ Route::resource('excels','ExcelController');
 Route::resource('powerpoints','PowerpointController');
 
 //----------- Data Visual  --------------------//
- Route::resource('datavs', 'DatavController');
+Route::resource('datavs', 'DatavController');
 
+Route::resource('ibds', 'IbdController');
 
- Route::resource('ibds', 'IbdController');
- Route::resource('talents', 'TalentController');
+Route::resource('talents', 'TalentController');
 
-
+Route::resource('dataanalysiss', 'DataAnalysisController');
 
 

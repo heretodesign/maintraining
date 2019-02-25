@@ -88,6 +88,10 @@ class PagesController extends Controller
      public function getTrainers() {
         return view('pages.trainers', compact('trainers'));
     }
+
+    public function getDatanalysis() {
+        return view('pages.datanalysis', compact('datanalysis'));
+    }
     
 }
 
